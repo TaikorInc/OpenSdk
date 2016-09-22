@@ -1,0 +1,27 @@
+{
+  "name": "taikor-opensdk",
+  "version": "1.0.0",
+  "description": "sdk for taikor daas api.",
+  "main": "taikor-opensdk.js",
+  "scripts": {
+    "start": "node taikor-opensdk.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "taikor",
+    "daas",
+    "opensdk",
+    "oauth2"
+  ],
+  "author": "carey",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C626DBB4-2D1A-438D-9FBC-B6F201C0FD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0170144F-F1C5-457F-A825-E3DD0FE106F8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Taikor.Opensdk", "src\Taikor.Opensdk\Taikor.Opensdk.xproj", "{5E04864C-E286-4C81-8A4F-B0C8DC4DDD33}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Opensdk.Test", "src\Opensdk.Test\Opensdk.Test.xproj", "{A4ECDD28-9987-42B5-89F1-D54B39A13954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E04864C-E286-4C81-8A4F-B0C8DC4DDD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E04864C-E286-4C81-8A4F-B0C8DC4DDD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E04864C-E286-4C81-8A4F-B0C8DC4DDD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E04864C-E286-4C81-8A4F-B0C8DC4DDD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4ECDD28-9987-42B5-89F1-D54B39A13954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4ECDD28-9987-42B5-89F1-D54B39A13954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4ECDD28-9987-42B5-89F1-D54B39A13954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4ECDD28-9987-42B5-89F1-D54B39A13954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E04864C-E286-4C81-8A4F-B0C8DC4DDD33} = {C626DBB4-2D1A-438D-9FBC-B6F201C0FD98}
+		{A4ECDD28-9987-42B5-89F1-D54B39A13954} = {C626DBB4-2D1A-438D-9FBC-B6F201C0FD98}
+	EndGlobalSection
+EndGlobal
