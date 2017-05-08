@@ -10,6 +10,7 @@ namespace Opensdk.Test
     {
         public static void Main(string[] args)
         {
+            //单线程访问测试
             Console.WriteLine("Waitting for authentication...");
             string userId = "";
             string appSecert = "";
