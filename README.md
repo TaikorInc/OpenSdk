@@ -28,7 +28,7 @@ sdk for taikor daas api.
         Map<String,Object> parameters = new HashMap<String,Object>();
         parameters.put("aaa","bbb");
 
-        Strings=toc.httpGet("Controller/action",parameters);
+        String s=toc.httpGet("Controller/action",parameters);
     }
 
 ### python
